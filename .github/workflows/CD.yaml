@@ -30,7 +30,7 @@ jobs:
       - name: 'Write Config & Key Files'
         run: |
           mkdir ~/.oci
-          echo "[DEFAULT]" >> ~/.oci/config
+          echo "[joseweverton002]" >> ~/.oci/config
           echo "user=${{secrets.OCI_USER_OCID}}" >> ~/.oci/config
           echo "fingerprint=${{secrets.OCI_FINGERPRINT}}" >> ~/.oci/config
           echo "tenancy=${{secrets.OCI_TENANCY_OCID}}" >> ~/.oci/config
