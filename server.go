@@ -10,6 +10,6 @@ func main() {
 }
 
 func Home(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("Hello World"))
+	w.Write([]byte("CR7 Goat"))
 
 }
