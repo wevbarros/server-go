@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: goserver
-          image: wev6/goserver:latest
+          image: wev6/goserver:main
           ports:
             - containerPort: 3000
